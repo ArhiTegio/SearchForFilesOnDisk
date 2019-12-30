@@ -22,7 +22,7 @@ namespace SearchForFilesOnDisk.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace SearchForFilesOnDisk.Properties {
         ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SearchForFilesOnDisk.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace SearchForFilesOnDisk.Properties {
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace SearchForFilesOnDisk.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на .
         /// </summary>
-        public static string NameFile {
+        internal static string NameFile {
             get {
                 return ResourceManager.GetString("NameFile", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace SearchForFilesOnDisk.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на .
         /// </summary>
-        public static string Path {
+        internal static string Path {
             get {
                 return ResourceManager.GetString("Path", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace SearchForFilesOnDisk.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на .
         /// </summary>
-        public static string SymbolInFile {
+        internal static string SymbolInFile {
             get {
                 return ResourceManager.GetString("SymbolInFile", resourceCulture);
             }
